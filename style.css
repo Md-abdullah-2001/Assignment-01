@@ -36,10 +36,10 @@
 .btn {
     color: #fff;
     padding: 14px 28px;
-    background-color: orange;
+    background-color: hsl(0, 100%, 50%);
     border: none;
     font-size: 22px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 /* Donation option */
@@ -63,7 +63,6 @@
 .donation-option p {
     font-size: 22px;
     font-weight: 300;
-    
     font-family: sans-serif;
 }
 
@@ -80,11 +79,63 @@
     border: 2px solid rgb(252, 248, 248);
     padding: 35px;
     font-size: 25px;
-    background-color: rgb(244, 20, 244);
+   background-color:#F3F4F6 ;
 }
 
 input {
     font-size: 20px;
     border: none;
     border-color: transparent;
+}
+                              /* food planing */
+
+ .Food-plan{
+    width: 60%;
+    height: 100vh;
+    margin-top: 15%;
+ text-align: center;
+ margin: 
+auto;           
+ }
+
+.Food-plan h1 {
+    font-size: 50px;
+    padding: 8px;
+    word-spacing: 10px;
+
+}
+
+.Food-plan p {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 285px;
+	width: 655px;
+	padding: 20px 35px;
+	background: #ebebeb  ;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 5px;
 }
